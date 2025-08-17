@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.casecard:hover{
+  background-color: #3C72FC;
+}
+.growthcard:hover{
+  background-color: #ffffff;
+  color: #3C72FC;
+}
+a{
+  text-decoration: none;
+  color: #8F8DA0;
+}
