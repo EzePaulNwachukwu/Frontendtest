@@ -6,63 +6,77 @@ import Button from './Button';
 const Footer = () => {
 
     return (
-        <div className='  text-start py-5' style={{ minHeight: "100vh", backgroundColor: "#0F0D1D" , color:"#8F8DA0"}}>
+        <div className='  text-start py-5' style={{ minHeight: "100vh", backgroundColor: "#0F0D1D", color: "#8F8DA0" }}>
 
-            <div className='container py-5 d-flex flex-column flex-md-row justify-content-between align-items-start gap-5'>
 
-                <div>
-                    <img src={require("../images/download (1).png")} alt="logo" className='w-25'/>
 
-                    <p> welcome to our consultancy agency, your business groeth is our concern</p>
 
-                    <div className='text-start border-top  pt-3'>
-                        <p><span><FontAwesomeIcon icon={faPhone} /> +92 666 888 0000</span></p>
-                        <p><span><FontAwesomeIcon icon={faEnvelope} /> needhelp@gmail.com</span></p>
-                        <p><span><FontAwesomeIcon icon={faLocationDot} /> 1234, Street Name, City, Country</span></p>
+            <div className="container py-3">
+                <div className="row g-5 text-light">
+
+                    <div className="col-12 col-md-4 text-start">
+                        <img
+                            src={require("../images/download (1).png")}
+                            alt="logo"
+                            className="img-fluid "
+                            style={{ maxWidth: "150px" }}
+                        />
+                        <p className="fs-6">
+                            Welcome to our consultancy agency, your business growth is our concern.
+                        </p>
+
+                        <div className="border-top pt-3 small">
+                            <p className="mb-2">
+                                <FontAwesomeIcon icon={faPhone} /> +92 666 888 0000
+                            </p>
+                            <p className="mb-2">
+                                <FontAwesomeIcon icon={faEnvelope} /> needhelp@gmail.com
+                            </p>
+                            <p className="mb-0">
+                                <FontAwesomeIcon icon={faLocationDot} /> 1234, Street Name, City, Country
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-md-4 text-start">
+                        <h3 className="fs-4 fw-bold mb-3">EXPLORE</h3>
+                        <div className="row">
+                            <ul className="list-unstyled col-6 small">
+                                <li><a href="#" className="text-decoration-none text-light">About</a></li>
+                                <li><a href="#" className="text-decoration-none text-light">Meet Our Team</a></li>
+                                <li><a href="#" className="text-decoration-none text-light">Case Studies</a></li>
+                                <li><a href="#" className="text-decoration-none text-light">Latest News</a></li>
+                                <li><a href="#" className="text-decoration-none text-light">Contact</a></li>
+                            </ul>
+                            <ul className="list-unstyled col-6 small">
+                                <li><a href="#" className="text-decoration-none text-light">Terms & Conditions</a></li>
+                                <li><a href="#" className="text-decoration-none text-light">Privacy Policy</a></li>
+                                <li><a href="#" className="text-decoration-none text-light">Refund Policy</a></li>
+                                <li><a href="#" className="text-decoration-none text-light">Support</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-md-4 text-start">
+                        <h3 className="fs-4 fw-bold mb-3">NEWSLETTER</h3>
+                        <div style={{ backgroundColor: "#06050C" }} className="p-3 rounded">
+                            <p className="small">
+                                Subscribe for fastest articles and resources
+                            </p>
+                            <form className="d-flex flex-column flex-sm-row gap-2">
+                                <input
+                                    type="email"
+                                    placeholder="Enter your email"
+                                    className="form-control"
+                                />
+                                <Button text="Register" />
+                            </form>
+                        </div>
                     </div>
 
                 </div>
-                <div>
-                    <h3>EXPLORE</h3>
-                    <nav className='mb-4 row'>
-                        <ul className='list-unstyled col-6 text-start '>
-                            <li><a href="#">About </a></li>
-                            <li><a href="#">Meet Our Teem</a></li>
-                            <li><a href="#">Case Studies</a></li>
-                            <li><a href="#">Latest Newa</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                        <ul className='list-unstyled text-start  col-6'>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Refund Policy</a></li>
-                            <li><a href="#">Support</a></li>
-                        </ul></nav>
-
-
-
-
-
-                </div>
-                <div>
-                    <h3>NEWSLETTER</h3>
-                    <div style={{ backgroundColor: "#06050C" }} className='text-start p-3'>
-                        <p>Subscribe for fatest articles and resources</p>
-                        <form className="d-flex flex-column flex-sm-row gap-0 bg-light p-2" style={{ width: "100%" }}>
-                            <input
-                                type="email"
-                                placeholder="Enter your email"
-                                className="form-control flex-grow-1"
-                            />
-                            <Button text="Register" />
-                        </form>
-
-
-                    </div>
-
-                </div>
-
             </div>
+
 
             <div className='d-flex justify-content-between align-items-center flex-column flex-md-row gap-3 container py-4 border-top' >
                 <p>copyright 2025 by dev-paul</p>

@@ -6,7 +6,7 @@ function Talkinkaboutprops({text, linktext, by}) {
         <div className='text-start '>
             <p className='text-start' style={{fontSize:"14px"}}>{text}</p>
 
-            <a style={{textDecoration:"none", fontWeight:"bold"}} href="#">{linktext}</a>
+            <a  style={{textDecoration:"none", fontWeight:"bold", color:"#0D6EFD"}} href="#">{linktext}</a>
             <p className='text-start' style={{fontSize:"10px"}}> {by}</p>
         </div>
     </div>

@@ -15,7 +15,14 @@ function Header() {
 
           <div className="col-6 col-md-2 text-center text-md-start  border-end border-white">
             {/* <p className="fs-2 m-0">Dev-paul</p> */}
-            <img src={require("../images/download (1).png")} alt="Logo" className='w-50' />
+            {/* <img src={require("../images/download (1).png")} alt="Logo" className='w-50' /> */}
+
+              <img
+                            src={require("../images/download (1).png")}
+                            alt="logo"
+                            className="img-fluid"
+                            style={{ maxWidth: "100px" }}
+                        />
           </div>
 
           <div className="col-12 col-md-7">
