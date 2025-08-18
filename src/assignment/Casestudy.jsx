@@ -1,8 +1,8 @@
 import React from 'react'
-import Casecard from './Casecard'
+import Casecard from './propsandcards/Casecard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCar } from '@fortawesome/free-solid-svg-icons'
-import Button from './Button'
+import Button from './propsandcards/Button'
 
 function Casestudy() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import Growthprops from './Growthprops'
-import Rateprop from './Rateprop'
+import Growthprops from './propsandcards/Growthprops'
+import Rateprop from './propsandcards/Rateprop'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircleCheck} from '@fortawesome/free-solid-svg-icons'
 
@@ -21,10 +21,10 @@ function Growth() {
                 <p className='mb-5'>There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form injected humour or randomised words which don't look believable.</p>
 
                 <div>
-                    <p><span>-</span> If you are going to use a passage</p>
-                    <p><span>-</span> lorem ipsum ypu need to be sure</p>
-                    <p><span>-</span> there isn't anything embarrassing</p>
-                    <p><span>-</span> hidden in the middle of text</p>
+                    <p><span className='text-primary'>-</span> If you are going to use a passage</p>
+                    <p><span className='text-primary'>-</span> lorem ipsum ypu need to be sure</p>
+                    <p><span className='text-primary'>-</span> there isn't anything embarrassing</p>
+                    <p><span className='text-primary'>-</span> hidden in the middle of text</p>
                 </div>
 
             </div>

@@ -1,12 +1,12 @@
 import { faEnvelope, faLocationDot, faPhone, } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import Button from './Button';
+import Button from './propsandcards/Button';
 
 const Footer = () => {
 
     return (
-        <div className='  text-start py-5' style={{ minHeight: "100vh", backgroundColor: "#0F0D1D", color: "#8F8DA0" }}>
+        <div className='footer  text-start py-5' style={{ minHeight: "100vh", backgroundColor: "#0F0D1D", color: "#8F8DA0" }}>
 
 
 
@@ -15,12 +15,15 @@ const Footer = () => {
                 <div className="row g-5 text-light">
 
                     <div className="col-12 col-md-4 text-start">
-                        <img
+                        {/* <img
                             src={require("../images/download (1).png")}
                             alt="logo"
                             className="img-fluid "
                             style={{ maxWidth: "150px" }}
-                        />
+                        /> */}
+                        <p className=" fs-4 fw-bold mb-3">Dev-paul</p>
+
+
                         <p className="fs-6">
                             Welcome to our consultancy agency, your business growth is our concern.
                         </p>
@@ -41,8 +44,8 @@ const Footer = () => {
                     <div className="col-12 col-md-4 text-start">
                         <h3 className="fs-4 fw-bold mb-3">EXPLORE</h3>
                         <div className="row">
-                            <ul className="list-unstyled col-6 small">
-                                <li><a href="#" className="text-decoration-none text-light">About</a></li>
+                            <ul className="list-unstyled col-6 small ">
+                                <li><a href="#" className="text-decoration-none text-light ">About</a></li>
                                 <li><a href="#" className="text-decoration-none text-light">Meet Our Team</a></li>
                                 <li><a href="#" className="text-decoration-none text-light">Case Studies</a></li>
                                 <li><a href="#" className="text-decoration-none text-light">Latest News</a></li>

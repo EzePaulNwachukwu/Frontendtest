@@ -1,8 +1,8 @@
 import React from 'react'
-import Experiencecard from './Experiencecard'
+import Experiencecard from './propsandcards/Experiencecard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowLeft, faArrowRight, faPhone } from '@fortawesome/free-solid-svg-icons'
-import Profprops from './Profprops'
+import Profprops from './propsandcards/Profprops'
 import Casestudy from './Casestudy'
 import { faPlay } from '@fortawesome/free-solid-svg-icons/faPlay'
 
@@ -66,8 +66,8 @@ function Experience() {
 
             </div>
 
-            <div className="container mx-auto my-3  row g-5 justify-content-between align-items-center ">
-                <div className="col-12 col-md-6 mb-3">
+            <div className="container mx-auto my-1  row g-5 justify-content-between align-items-center ">
+                <div className="col-12 col-md-6 col-lg-5 mb-3">
 
                     <span className='text-light p-5 fs-1 bg-primary '>
                         <FontAwesomeIcon icon={faPlay} />
@@ -76,12 +76,11 @@ function Experience() {
                 </div>
               
 
-                <div className="col-12 col-md-6 text-start">
+                <div className="container col-12 col-md-6 col-lg-5 text-start my-5 p-lg-5" >
                     <h3 className='fs-2 fs-md-1 fw-bold'>WE ARE LEADING IN THE MARKET</h3>
 
                     <p className='my-3 fs-6 fs-md-5'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Est eligendi totam dolorem, similique commodi cupiditate! Quos, accusantium vitae!
                         Error corporis quae nobis quibusdam facilis, magni tenetur temporibus sit dolorem iure.
                     </p>
 

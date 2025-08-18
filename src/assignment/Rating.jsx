@@ -1,9 +1,9 @@
 import React from 'react'
-import Ratingprops from './Ratingprops'
+import Ratingprops from './propsandcards/Ratingprops'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUsersCog } from '@fortawesome/free-solid-svg-icons'
 import Growth from './Growth'
-import Growthprops from './Growthprops'
+import Growthprops from './propsandcards/Growthprops'
 
 function Rating() {
     return (
