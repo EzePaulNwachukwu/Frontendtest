@@ -14,7 +14,7 @@ function Profprops({ numb, title, desc }) {
 
       <div className="col-10 col-sm-10 col-md-11 col-lg-11 text-start">
         <h4 className="fw-bold fs-6 fs-md-5 fs-lg-4 mb-2">{title}</h4>
-        <p className="fs-6 fs-md-6 fs-lg-5 mb-0">{desc}</p>
+    <p className="fs-6 fs-md-6 fs-lg-6 mb-0" style={{color:"#726F84"}}>{desc}</p>
       </div>
     </div>
   )
