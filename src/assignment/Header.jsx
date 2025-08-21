@@ -20,7 +20,7 @@ function Header() {
         <div className="row align-items-center ">
 
           <div className=" col-4 col-md-2 col-lg-2 text-center text-md-start  border-end border-white">
-            <p className="fs-2 m-0 text-center">CreativeLogo</p>
+            <p className="fs-5 m-0 text-center">CreativeLogo</p>
 
             {/* <img
               src={require("../images/download (1).png")}
